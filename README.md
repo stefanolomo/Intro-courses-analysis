@@ -8,7 +8,7 @@
 - `Database.py`: script utilizado para la importación de datos.
 
 ## 🎯 Introducción
-Este proyecto analiza los resultados académicos de los estudiantes en la asignatura **Matemática Para Ingeniería** de la Facultad de Ingeniería de la Universidad Nacional de La Plata. Los datos son de producción propia, recopilados en los cursos en los que he participado entre los años **2020 y 2025**.  
+Este proyecto analiza los resultados académicos de los estudiantes en la asignatura **Matemática Para Ingeniería** de la Facultad de Ingeniería de la Universidad Nacional de La Plata. Los datos son de producción propia, recopilados en los cursos en los que he participado **entre los años 2020 y 2025**.  
 
 El objetivo principal es **caracterizar** el desempeño de los alumnos en general y a lo largo de los años, y **comparar el rendimiento de los alumnos en las distintas modalidades de cursada** (Verano, 1er Semestre y Anticipada). Se busca identificar tendencias a lo largo del tiempo y evaluar factores contextuales que expliquen las posibles diferencias entre las distintas modalidades.  
 
@@ -22,27 +22,28 @@ Los resultados del análisis descriptivo de los cursos puede verse en el noteboo
 
 ### 1. Análisis exploratorio de los datos
 - Descripción detallada del dataset (1222 registros, 13 variables).
-- Variables principales: condición final, año, tipo de cursada.
+- Variables principales: condición final, año, tipo de cursada, nota final.
 - Identificación de categorías y estructura de los datos.
 
 ### 1.1 Distribución de datos por categorías
 - Distribución de alumnos por **año y tipo de cursada**.
 - Análisis de **cantidades de inscriptos** y dispersión según modalidad.
 - Visualización de tendencias en la inscripción a lo largo de los años.
-
-### 1.2 Distribución por condición final
 - Proporciones de alumnos **Promocionados, Desaprobados, Abandonados y Libres**.
 - Evolución anual de estas categorías.
 - Relación entre la variación de alumnos **Libres** y la tasa de **Promoción**.
 
-
-### 1.3 Desempeño anual de cada curso
+### 1.2 Desempeño anual de cada curso
 - Comparación detallada del desempeño por **año y tipo de cursada**.
 - Representación en gráficos de proporciones.
 - Discusión de casos particulares.
 
+### 1.3 Distribución de datos por nota final
+- Distribución de alumnos promocionados según nota final.
+- Comparación entre promocionados de distintas modalidades.
+
 ### 2. Análisis de resultados según Tipo de Cursada
-- Introducción a la comparación entre **Verano, 1er Semestre y Anticipada**.
+- Introducción a la comparación entre **resultados de parciales de Verano, 1er Semestre y Anticipada**.
 - Primeras observaciones sobre diferencias en **participación, abandono y promoción**.
 - Punto de partida para un perfil académico de cada modalidad.
 
