@@ -40,17 +40,19 @@ Los resultados del análisis descriptivo de los cursos puede verse en el noteboo
 
 ### 1.3 Distribución de datos por nota final
 - Distribución de alumnos promocionados según nota final.
+- Estadísticas descriptivas (media, moda, desviación estándar)
 - Comparación entre promocionados de distintas modalidades.
 
 ### 2. Análisis de resultados según Tipo de Cursada
-- Introducción a la comparación entre **resultados de parciales de Verano, 1er Semestre y Anticipada**.
-- Primeras observaciones sobre diferencias en **participación, abandono y promoción**.
-- Punto de partida para un perfil académico de cada modalidad.
+- Perfil general del **desempeño durante los cursos de 1er Semestre y Anticipada** en términos de:
+  - Distribución de condición final y diferencias respecto al promedio grobal.
+  - Curvas de supervivencia y evolución de la tasa de abandono para caracterizar permanencia de los alumnos durante la cursada.
+  - Distribución de notas en los parciales.   
+- Punto de partida para comparar la eficacia en cada modalidad.
 
 ---
 
 ## 🚀 Próximos pasos
-- Incorporar métricas adicionales: tasas de abandono temprano, efectividad de recuperatorios, distribución de notas finales.
 - Profundizar la comparación entre **tipos de cursada**.
 - Explorar técnicas de **Machine Learning**:
   - Clusterización de perfiles de estudiantes.
